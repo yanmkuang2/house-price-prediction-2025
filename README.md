@@ -1,6 +1,6 @@
 # California Single-Family Home Price Prediction
 
-ML pipeline using 2025 CRMLS data to predict closing prices.
+ML pipeline using 2025 California Regional Multiple Listing Servic (CRMLS) data to predict single-family home closing prices.
 
 ## Key Results
 - Best model: Weighted Stacking (LightGBM + XGBoost + Random Forest)
