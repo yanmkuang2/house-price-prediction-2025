@@ -4,9 +4,9 @@ ML pipeline using 2025 California Regional Multiple Listing Servic (CRMLS) data 
 
 ## Key Results
 - Best model: Weighted Stacking (LightGBM + XGBoost + Random Forest)
-- R² (dollars): 0.8568
-- R² (log): 0.9045
-- MdAPE (dollars): 8.92%
+- R² (dollars): 0.89
+- R² (log): 0.93
+- MdAPE (dollars): 7.55%
 
 ## Structure
 - `01_preprocessing.ipynb`: Data cleaning, imputation, encoding, scaling, feature engineering
