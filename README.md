@@ -32,6 +32,6 @@ ML pipeline using 2025 California Regional Multiple Listing Servic (CRMLS) data 
 ## How to run
 1. Run `01_preprocessing.ipynb` → generates cleaned CSVs
 2. Run `02_modeling.ipynb` → trains & evaluates models
-3. Launch the app: `streamlit run app.py`
+3. Launch the app: `streamlit run 03_app.py`
 
 See notebooks for full details.
