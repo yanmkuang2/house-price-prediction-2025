@@ -3,18 +3,20 @@
 ML pipeline using 2025 California Regional Multiple Listing Servic (CRMLS) data to predict single-family home closing prices.
 
 ## Key Results
+- Training set: Janurary - November 2025
+- Test set: December 2025
 - Best model: Weighted Stacking (LightGBM + XGBoost + Random Forest)
-- R² (dollars): 0.89
-- MdAPE (dollars): 7.55%
+- R² (dollars): 0.90
+- MdAPE (dollars): 7.40%
 
 ## Price Band Analysis
 - The model performs the best in the **mid-price range** ($500k–$1M), where almost 50% of the sales occur and variance is moderate
-- R² (dollars): 0.39
-- MdAPE (dollars): 6.40%
+- R² (dollars): 0.40
+- MdAPE (dollars): 6.32%
 
 - The model performs the worst in the **High-end** (>$5M), where relative errors increase due to outliers and unique property features
-- R² (dollars): -2.73
-- MdAPE (dollars): 18.28%
+- R² (dollars): -2.41
+- MdAPE (dollars): 16.10%
 
 ## Structure
 - `01_preprocessing.ipynb`: Data cleaning, imputation, encoding, scaling, feature engineering
