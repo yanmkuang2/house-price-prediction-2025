@@ -25,6 +25,13 @@ ML pipeline using 2025 California Regional Multiple Listing Servic (CRMLS) data 
   Users input key property features (Living Area, Bedrooms, Bathrooms, Lot Size, Flooring Type, etc.)
   App loads the best single model (LightGBM), applies the same preprocessing (scaling, target encoding), and returns estimated closing price in dollars.  
 
+## Airflow Pipeline
+`airflow_dag_pipeline.py`  
+Apache Airflow DAG that automates:
+- Scheduled FTP download of new MLS data (only files newer than existing local months)
+- Preprocessing of raw CSVs into cleaned train/test sets
+- Model retraining and evaluation
+
 ## Tech Stack
 - Python, pandas, scikit-learn, XGBoost, LightGBM, joblib
 - Feature engineering: ZIP-prefix grouping, target encoding, distance to coast
