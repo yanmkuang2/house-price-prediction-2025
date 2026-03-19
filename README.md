@@ -21,9 +21,11 @@ ML pipeline using 2025 California Regional Multiple Listing Servic (CRMLS) data 
 ## Structure
 - `01_preprocessing.ipynb`: Data cleaning, imputation, encoding, scaling, feature engineering
 - `02_modeling.ipynb`: Model development (OLS, Decision Tree, RF, XGBoost, LightGBM), tuning, evaluation
-- `03_app.py`: Interactive Streamlit web app for real-time price prediction (https://house-price-prediction-2025-6v5cuax39h3fwrefx2tc6s.streamlit.app/).
+- `03_app.py`: Interactive Streamlit web app for real-time price prediction
   Users input key property features (Living Area, Bedrooms, Bathrooms, Lot Size, Flooring Type, etc.)
-  App loads the best single model (LightGBM), applies the same preprocessing (scaling, target encoding), and returns estimated closing price in dollars.  
+  App loads the best single model (LightGBM), applies the same preprocessing (scaling, target encoding), and returns estimated closing price in dollars
+  (https://house-price-prediction-2025-6v5cuax39h3fwrefx2tc6s.streamlit.app/)
+
 
 ## Airflow Pipeline
 `airflow_dag_pipeline.py`  
