@@ -24,7 +24,7 @@ ML pipeline using 2025 California Regional Multiple Listing Servic (CRMLS) data 
 - `03_app.py`: Interactive Streamlit web app for real-time price prediction
   - Users input key property features (Living Area, Bedrooms, Bathrooms, Lot Size, Flooring Type, etc.)
   - App loads the best single model (LightGBM), applies the same preprocessing (scaling, target encoding), and returns estimated closing price in dollars
-  - (https://house-price-prediction-2025-6v5cuax39h3fwrefx2tc6s.streamlit.app/)
+  - Demo: [House Price Predictor](https://house-price-prediction-2025-6v5cuax39h3fwrefx2tc6s.streamlit.app/)
 
 
 ## Airflow Pipeline
