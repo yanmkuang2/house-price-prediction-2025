@@ -3,7 +3,7 @@
 ML pipeline using 2025 California Regional Multiple Listing Servic (CRMLS) data to predict single-family home closing prices.
 
 ## Key Results
-- Training set: Janurary - November 2025
+- Training set: Janurary-November 2025
 - Test set: December 2025
 - Best model: Weighted Stacking (LightGBM + XGBoost + Random Forest)
 - R² (dollars): 0.90
