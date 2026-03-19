@@ -14,7 +14,7 @@ ML pipeline using 2025 California Regional Multiple Listing Servic (CRMLS) data 
 - R² (dollars): 0.40
 - MdAPE (dollars): 6.32%
 
-- The model performs the worst in the **High-end** (>$5M), where relative errors increase due to outliers and unique property features
+- The model performs the worst in the **high-end** (>$5M), where relative errors increase due to outliers and unique property features
 - R² (dollars): -2.41
 - MdAPE (dollars): 16.10%
 
