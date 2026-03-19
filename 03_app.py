@@ -15,20 +15,20 @@ st.title("California Single-Family Home Price Predictor")
 st.markdown("Estimate closing price based on 2025 CRMLS data (trained June–Nov, tested Dec).")
 
 # Load best model
-model = joblib.load('/Users/yanmingkuang/Desktop/IDX/best_lgbm_model.pkl')
+model = joblib.load('best_lgbm_model.pkl')
 
 # Load scalar
-scaler = joblib.load('/Users/yanmingkuang/Desktop/IDX/train_scaler.pkl')
+scaler = joblib.load('train_scaler.pkl')
 
 # Load target encoding mappings (adjust names to match what you saved)
-highschool_means = joblib.load('/Users/yanmingkuang/Desktop/IDX/highschool_target_means.pkl')
-highschool_global = joblib.load('/Users/yanmingkuang/Desktop/IDX/highschool_global_mean.pkl')
+highschool_means = joblib.load('highschool_target_means.pkl')
+highschool_global = joblib.load('highschool_global_mean.pkl')
 
-flooring_means = joblib.load('/Users/yanmingkuang/Desktop/IDX/flooring_target_means.pkl')
-flooring_global = joblib.load('/Users/yanmingkuang/Desktop/IDX/flooring_global_mean.pkl')
+flooring_means = joblib.load('flooring_target_means.pkl')
+flooring_global = joblib.load('flooring_global_mean.pkl')
 
 # Load zip
-zip_prefix_list = joblib.load('/Users/yanmingkuang/Desktop/IDX/zip_prefix_list.pkl')
+zip_prefix_list = joblib.load('zip_prefix_list.pkl')
 if '900' not in zip_prefix_list:
     zip_prefix_list.append('900')
 
